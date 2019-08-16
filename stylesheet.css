@@ -1,0 +1,284 @@
+*{list-style-type:none;}
+
+
+/* ヘッダーについて*/
+.navbar-brand span{
+  font-size: 13px;
+  color:#3D5274;
+}
+.navbar-brand{
+  margin-left: 10px;
+  margin-bottom: 3px;
+}
+.navbar-collapse{
+  justify-content: flex-end;
+}
+
+.navbar-nav a{
+  padding-bottom: 0;
+}
+.navbar-nav li{
+  padding-bottom: 3px;
+  margin-left: 20px;
+
+}
+.navbar-nav li:hover{
+  border-bottom: 3px solid #4B75B9;
+  padding-bottom: 0;
+}
+
+/*  トップページ*/
+.top-wrapper{
+  margin-top:70px;
+  height: 100vh;
+  background-image: url(img/map-3476649_1920.jpg);
+  background-size: cover;
+}
+.top-text{
+  padding-top:40vh;
+}
+.top-text h1{
+  color:white;
+  font-size: 40px;
+  font-weight:normal;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  background:rgba(40,40, 40, 0.5);
+}
+.subtitle h2{
+  font-size: 20px;
+  font-weight: normal;
+  border: 1px solid #cccccc;
+  padding: 10px 20px;
+  margin-top:50px;
+}
+/*  活動理念*/
+.top-activityconcept_elements{
+  border: 1px solid #AAAAAA;
+  border-radius: 5px;
+  margin:30px 30px;
+  padding: 30px !important;
+}
+.top-activityconcept_elements span{
+  border-bottom: 3px solid #004C65;
+}
+.top-activityconcept_elements p{
+  padding-top:20px;
+}
+.top-activityconcept_elements ul{
+
+  padding: 0;
+}
+.top-activityconcept_elements__list span{
+  border-bottom: 2px solid #C7243A;
+}
+.top-activityconcept_elements__list li{
+  padding-top:5px;
+}
+/*  活動報告*/
+.top-activityreport_elements{
+  margin:30px 20px;
+  padding: 30px;
+}
+.top-activityreport_elements img{
+  width: 100%;
+}
+.top-activityreport_elements h3{
+  padding: 40px 0 20px 0;
+  border-bottom: 1px solid #AAAAAA;
+}
+.top-activityreport_elements p{
+  padding-top:20px;
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+
+/*  */
+/*  */
+/*  ヘッダー部分*/
+.topheader-wrapper{
+  margin-top:70px;
+  height:280px;
+  position:relative;
+}
+.topheader-text{
+  position: absolute;
+  width:100%;
+  bottom:0;
+  left:0;
+  height: 130px;
+  padding-top:30px;
+  padding-left:150px;
+  background:rgba(40,40, 40, 0.5);
+}
+.topheader-text h1, .topheader-text p{
+  text-align: left;
+  margin:0px;
+  font-weight: normal;
+  color:white;
+}
+/*  */
+/*  組織情報ページ*/
+/*  */
+/*  組織理念*/
+.company-header-img{
+  background-image: url(img/mt-fuji-2232246_1920.jpg);
+  background-size: cover;
+}
+.OrganizationalPhilosophy img{
+  width: 100%;
+}
+.OrganizationalPhilosophy p{
+  margin-top: 60px;
+}
+.OrganizationalPhilosophy strong{
+  font-size:1.4em;
+  font-weight: normal;
+  line-height:2.1em;
+  border-bottom:3px solid #004C65;
+}
+/*  組織情報*/
+table {
+  margin: 20px auto;
+  width:650px;
+  padding:30px;
+}
+.company-concept th{
+  text-align: left;
+  width: 150px;
+  padding:10px 60px 10px 20px;
+  border-bottom:solid  1px #eee;
+}
+.company-concept td{
+  text-align: left;
+  padding:10px 0;
+  border-bottom:solid  1px #eee;
+}
+.company-concept li{
+  text-align: left;
+  padding-top: 5px;
+}
+.company-concept ul{
+  padding:0px;
+}
+/*  */
+/*  会員案内*/
+/*  */
+.membership-header-img{
+  background-image: url(img/diary-614149_1280.jpg);
+  background-size: cover;
+}
+.membership-elements{
+  border: 1px solid #CCCCCC;
+  margin:2%;
+  margin-bottom: 60px;
+  padding:30px !important;
+}
+.membership-elements h3{
+  border-bottom: 1px solid #004C65;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+.membership-elements span{
+    border:1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+}
+.membership-elements p{
+  margin-top:30px;
+}
+.membership-elements li{
+  padding-top:10px;
+}
+.membership-elements ul{
+  padding-left:20px;
+}
+.membership-elements__span span{
+  font-size: 0.6em;
+  border:none;
+  padding: 0;
+}
+.membership-note p{
+  font-size: 1.3em;
+}
+/*  */
+/*  活動支援ページ*/
+/*  */
+.activitySupport-elements span{
+  border-bottom: 3px solid #004C65;
+}
+.activitySupport-elements p{
+  font-size: 1.5em;
+  margin-top:80px;
+}
+.activitySupport-elements__marginB{
+  margin-bottom: 0px;
+}
+.activitySupport-elements__contents{
+  border:1px solid #CCCCCC;
+  margin: 3%;
+}
+.activitySupport-elements__contents h4{
+  font-size: 4em;
+  padding:40px 0 15px 0;
+  margin:0 40px;
+  color:#3D444F;
+  border-bottom: 1px solid #004C65;
+}
+.activitySupport-elements__contents p{
+  font-size: 1em;
+  margin:35px 15px 40px 15px;
+
+}
+.activitySupport-contact{
+  margin-top:50px;
+}
+.activitySupport-contact span{
+  font-weight: bold;
+  font-size:35px;
+  color:#004C65;
+  border-bottom: 1px solid #cccccc;
+}
+/*  */
+/*  お問い合わせページ*/
+/*  */
+.contact-header-img{
+  background-image: url(img/connection-contact-focus-955081.jpg);
+  background-size: cover;
+}
+.card-body h3{
+  margin:30px 0;
+}
+.ourinfo-wrapper{
+  margin-top:30px;
+}
+form span{
+  color:#D45D87;
+}
+.ourinfo-wrapper ul{
+  padding: 0;
+}
+.ourinfo-wrapper span{
+  font-weight: bold;
+  font-size:35px;
+  color:#004C65;
+  border-bottom: 1px solid #cccccc;
+}
+.card{
+  margin-top:50px !important;
+  margin:auto;
+}
+
+
+/*  フッター*/
+footer{
+  height: 100px;
+  margin-top:100px;
+  background-color: #555555;
+}
+footer p{
+  color:white;
+  text-align: left;
+  line-height: 100px;
+}
