@@ -1,0 +1,92 @@
+/*  タブレット向けレイアウト*/
+@media all and (max-width: 992px) {
+
+.subtitle h2{
+  font-size: 1em;
+}
+.top-activityreport_elements h3{
+  padding: 10px 0;
+  font-size: 1.3em;
+}
+.top-activityreport_elements p{
+  font-size: 0.9em;
+  line-height: 1.5em;
+  padding: 0;
+}
+.activitySupport-elements h3{
+  line-height: 2em;
+}
+
+}
+
+/*  タブレット向けレイアウト*/
+@media all and (max-width: 761px) {
+.top-wrapper{
+  height: 250px;
+}
+.top-text{
+  padding-top:100px;
+}
+.top-text h1{
+  font-size: 1.5em;
+  line-height: 2em;
+  height: 2em;
+}
+.topheader-wrapper{
+  height: 140px;
+}
+.topheader-text{
+  padding-top:10px;
+  padding-left: 20px;
+  height: 60px;
+}
+.topheader-text h1{
+  font-size: 1.5em;
+}
+.topheader-text p{
+  font-size: 0.8em;
+}
+.subtitle h2{
+  font-size: 0.8em;
+  margin:0;
+}
+.OrganizationalPhilosophy strong{
+  font-size: 1.2em;
+}
+.OrganizationalPhilosophy p{
+  margin:10px 0 50px;
+}
+.company-concept th{
+  padding:0;
+  width: 75px;
+}
+.company-concept td{
+  font-size:0.8em;
+}
+.membership-note p{
+  font-size: 1em;
+}
+.activitySupport-elements span{
+  font-size:0.6em;
+}
+.activitySupport-elements h3{
+  line-height: 1em;
+}
+.activitySupport-elements  p{
+  font-size: 1em;
+}
+.activitySupport-elements__contents h4{
+  font-size: 1.8em;
+  padding:20px 0 10px 0;
+}
+.activitySupport-elements__contents p{
+  margin:20px 10px 15px 10px;
+}
+.activitySupport-contact span {
+  font-size: 1.8em;
+}
+.ourinfo-wrapper span {
+  font-size:1.4em;
+}
+
+}
